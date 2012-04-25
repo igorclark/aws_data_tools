@@ -4,7 +4,7 @@
 		exit(1);
 	}
 
-	require_once("blows-setup.inc.php");
+	require_once("aws_data_magic/aws_data_magic.inc.php");
 	
 	if($argc = 3) {
 		$item_key	= $argv[1];
